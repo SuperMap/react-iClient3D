@@ -1,0 +1,34 @@
+{
+  "name": "react-iclient3d",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.21.2",
+    "react": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "sass-loader": "^12.6.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "components-npm-test-react": "^1.0.0",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "rollup": "^2.75.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.52.3"
+  }
+}
