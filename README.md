@@ -97,42 +97,6 @@ app.mount('#app')
 
 ``` bash
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <!-- vue + element-plus-->
-    <script src="https://www.supermapol.com/earth/vue-iEarth/examples/public/js/vue.global.prod.js"></script>
-    <link rel="stylesheet" href="https://www.supermapol.com/earth/vue-iEarth/examples/public/element-plus/index.css">
-    <script src="https://www.supermapol.com/earth/vue-iEarth/examples/public/element-plus/index.full.js"></script>
-    <!-- cesium -->
-    <link href="https://www.supermapol.com/earth/vue-iEarth/examples/public/Cesium/Widgets/widgets.css"
-        rel="stylesheet">
-    <script src="https://www.supermapol.com/earth/vue-iEarth/examples/public/Cesium/Cesium.js"></script>
-    <!-- 组件包 -->
-    <link href="https://www.supermapol.com/earth/vue-iEarth/examples/dist/components.css" rel="stylesheet">
-    <script src="https://www.supermapol.com/earth/vue-iEarth/examples/dist/components.js"></script>
-    <title>完整组件-CDN引入-demo</title>
-</head>
-<body>
-      <div id="app">
-        <sm3d-viewer scene-url="http://www.supermapol.com/realspace/services/3D-ZF_normal/rest/realspace">
-            <sm3d-measure></sm3d-measure>
-        </sm3d-viewer>
-    </div>
-    <script>
-        const app = Vue.createApp({});
-        app.use(webgl3d);  
-        app.mount("#app");
-    </script>
-</body>
-<!-- 根据使用具体组件的需要引入其他第三方依赖 -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/echarts@5.0.2/dist/echarts.min.js" async></script>
-<script src="https://www.supermapol.com/earth/vue-iEarth/examples/public/js/axios.min.js" async></script> -->
-</html>
-
 ```
 
 
