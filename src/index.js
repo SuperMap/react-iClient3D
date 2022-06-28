@@ -12,4 +12,4 @@ export { default as Sm3dTerrainSlope } from './components/terrain-analysis/terra
 export { default as Sm3dClipCross } from './components/clip/clip-cross/clip-cross.jsx'
 export { default as Sm3dClipPolygon } from './components/clip/clip-polygon/clip-polygon.jsx'
 // 模型
-export { default as Sm3dGeologicalBody } from './components/clip/clip-polygon/clip-polygon.jsx'
+export { default as Sm3dGeologicalBody } from './components/model/geological-body/geological-body.jsx'

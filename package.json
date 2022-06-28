@@ -1,6 +1,6 @@
 {
   "name": "react-iclient3d",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,6 @@
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
-    "components-npm-test-react": "^1.0.0",
     "node-sass": "^7.0.1",
     "postcss": "^8.4.14",
     "rollup": "^2.75.6",
